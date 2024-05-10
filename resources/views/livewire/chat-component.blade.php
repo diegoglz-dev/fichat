@@ -1,4 +1,5 @@
 <div>
+    @include('components.loading-indicator')
     <div class="chat-container">
         <div>
             @foreach ($conversation as $messageText)
